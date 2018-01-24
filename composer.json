@@ -1,0 +1,17 @@
+{
+    "name": "sebazamorano/mini",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Zamorano",
+            "email": "correo@correo.vom"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mini\\": "app/"
+        }
+    }
+}
