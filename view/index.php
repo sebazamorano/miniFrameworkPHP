@@ -9,8 +9,8 @@
 </head>
 <body>
 <ul>
-    <?php foreach(Mini\ToDo::getAll() as $to):?>
-        <li><?php echo $to['name']?></li>
+    <?php foreach($toDo as $to):?>
+        <li><?php echo $to->name?></li>
     <?php endforeach;?>
 </ul>
 </body>
